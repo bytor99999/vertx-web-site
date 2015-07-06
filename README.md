@@ -43,6 +43,10 @@ contains a trailing slash. You can configure it in the `gulpfile.js` file.
 Heads up: keeping all URLs absolute allows us to quickly move the web-site to another
 path on the web server by just changing the global `site_url` variable.
 
+## The blog
+
+Read [BLOG.md](BLOG.md)
+
 ## Publishing
 
 Run `mvn site-deploy` to publish the site to your GitHub account. Configure the
